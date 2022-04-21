@@ -1,0 +1,12 @@
+FROM ruby:3.1.2
+
+RUN useradd -ms /bin/bash -u 1000 user
+USER 1000:1000
+
+WORKDIR /work
+
+ADD gems.* /work/
+RUN bundle
+ADD server.rb /work/
+
+ENTRYPOINT ["bundle", "exec", "ruby", "server.rb"]
