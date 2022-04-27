@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2022 Hugo Peixoto <hugo.peixoto@gmail.com>
+# SPDX-License-Identifier: AGPL-3.0-only
+
 require 'sinatra'
 require 'sinatra/jsonapi'
 require 'securerandom'

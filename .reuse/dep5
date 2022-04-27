@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Pokémon collection tracker backend
+Upstream-Contact: Hugo Peixoto <hugo.peixoto@gmail.com>
+Source: https://github.com/hugopeixoto/pokemon-collection-tracker-backend
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
+
+Files: gems.rb gems.locked .gitignore Dockerfile Dockerfile.production
+Copyright: 2022 Hugo Peixoto <hugo.peixoto@gmail.com>
+License: AGPL-3.0-only
